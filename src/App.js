@@ -8,6 +8,12 @@ export default function App() {
       <header className="App-header">
         <h1>Weather Search </h1>
         <WeatherSearch />
+        <p>
+          <a href="https://github.com/andi-szabo/weather-react">
+            open source code{" "}
+          </a>
+          by Andrea Szabo
+        </p>
       </header>
     </div>
   );
