@@ -5,14 +5,14 @@ import "./App.css";
 export default function App() {
   return (
     <div className="App">
-      <h1>Weather Search </h1>
+      <h1>Weather App</h1>
       <WeatherSearch />
-      <p>
-        <a href="https://github.com/andi-szabo/weather-react">
-          open source code{" "}
+      <footer>
+        Coded by Andrea Szabo and is{" "}
+        <a href="https://github.com/andi-szabo/weather-react" target="_blank">
+          open source on Github{" "}
         </a>
-        by Andrea Szabo
-      </p>
+      </footer>
     </div>
   );
 }
