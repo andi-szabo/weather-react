@@ -8,7 +8,11 @@ export default function App() {
       <div className="container">
         <Weather defaultCity="Antwerp" />
         <footer>
-          <a href="https://github.com/andi-szabo/weather-react" target="_blank">
+          <a
+            href="https://github.com/andi-szabo/weather-react"
+            target="_blank"
+            rel="noreferrer"
+          >
             Open source code
           </a>{" "}
           by Andrea Szabo
