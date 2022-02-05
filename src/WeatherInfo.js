@@ -7,7 +7,7 @@ export default function WeatherInfo(props) {
     <div className="WeatherInfo">
       <div className="row">
         <div className="col">
-          <WeatherIcon code={props.data.icon} />
+          <WeatherIcon code={props.data.icon} size={64} />
         </div>
         <div className="col info-wrap">
           <h1>{props.data.city}</h1>
